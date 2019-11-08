@@ -1,0 +1,16 @@
+spring:
+    profile:
+        active:
+        -dev
+---
+
+spring:
+    profiles: dev
+    appliaction:
+        name: microservicecloud-config-vow-dev
+
+---
+spring:
+    profiles: test
+    application:
+        name: microservicecloud-config-vow-test
